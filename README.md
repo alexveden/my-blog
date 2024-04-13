@@ -12,7 +12,8 @@ carousels:
     - image: assets/img/Model-Scanner.png
     - image: assets/img/Portfolio-risk-simulation.png
     - image: assets/img/uberbacklog.png
-    - image: assets/img/Volatility-Model.png
+cover: assets/img/DSC_8317-2-1020x400.jpg
+cover_height: 450px
 ---
 
 ## Briefly about me
