@@ -1,0 +1,146 @@
+---
+layout: page
+status: publish
+published: true
+title: Портфолио и open-source проекты
+author:
+  display_name: Alex Veden
+  login: ubertrader
+  email: i@alexveden.com
+  url: ''
+author_login: ubertrader
+author_email: i@alexveden.com
+wordpress_id: 501
+wordpress_url: https://alexveden.com/?page_id=501
+date: '2022-09-24 11:46:32 +0400'
+date_gmt: '2022-09-24 07:46:32 +0400'
+categories: []
+tags: []
+comments: []
+---
+<p><!-- wp:heading --></p>
+<h2>Uberbacklog</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Для исследований рынка я придумал систему каталогизации исследований - Uberbacklog. Каждая задача рассчитана на 1-4 недели работы. И с 2018 года я реализовал более #150 задач, для разных идей для рынков США, России, опционов, торговли волатильностью, пассивных инвестиций и т.п.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>В работе использую специальный закрытый фреймворк для анализа, бэктестинга стратегий и моделей на фьючерсах, акциях и опционах. На рисунке ниже результаты работы за последние 4 года в Jupyter Lab:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":469,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="https://alexveden.com/wp-content/uploads/2022/09/uberbacklog-1024x700.png" alt="" class="wp-image-469"/><br />
+<figcaption>Лучше один раз увидеть, чем сто раз услышать.</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:heading --></p>
+<h2>Open-source проекты</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Yet Another Universal Backtesting Engine Release (YAUBER) — Algo Lib</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://github.com/alexveden/yauber-algo">https://github.com/alexveden/yauber-algo</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Набор алгоритмов анализа для финансовых временных рядов.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Особенности:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>Использует Numba для ускорения кода и в целом быстрее чем Pandas в сопоставимых алгоритмах.</li>
+<li>Построен на основе жестких принципах: отсутствие заглядывания в будущее, стабильность алгоритма к изменению начальной точки истории, обработка NaN, встроенная валидация данных.</li>
+<li>Стабильные и 100% покрытые unit-test'ами алгоритмы, которые я использую для всех своих production стратегий</li>
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Yet Another Universal Backtesting Engine Release (YAUBER) — Backtester</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://github.com/alexveden/yauber-backtester">https://github.com/alexveden/yauber-backtester</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>yauber-backtester простой фреймворк для тестирования портфелей</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>Поддержка техник управления портфелей: рэнкинг активов, торговля корзинами активов, ребалансировка активов</li>
+<li>Способен работать на большой universe активов (например 2000-3000 акций США, EOD), либо небольшая выборка активов на intraday (например, фьючерсы, hourly)</li>
+<li>Поддержка мета-стратегий, поддержка портфелей из стратегий</li>
+<li>Поддержка стратегий аллокации капитала, маржинальной торговли и т.п.</li>
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Yet Another Universal Backtesting Engine Release (YAUBER) —</strong>&nbsp;<strong>Executor</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://github.com/alexveden/yauber-executor">https://github.com/alexveden/yauber-executor</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Проект-шаблон для создания асинхронной распределенной инфраструктуры.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>Полностью на asyncio</li>
+<li>На основе RabbitMQ и MongoDB</li>
+<li>Поддерживает обмен сообщениями и RPC вызовы</li>
+<li><a href="https://github.com/alexveden/yauber-executor/tree/master/sample_infrastructure">Пример инфраструктуры</a></li>
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Cython Tools: toolkit for efficient Cython development</strong></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://github.com/alexveden/cython-tools">https://github.com/alexveden/cython-tools</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Набор инструментов для удобной и эффективной разработки кода на Cython.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><a href="https://github.com/alexveden/cython-tools#key-features"></a>Особенности</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>Швейцарский нож: все инструменты в одном месте</li>
+<li>Встроенный Cython debugger</li>
+<li>Поддержка unit-testing + coverage</li>
+<li>Line-profiler / Memory-leaks detector </li>
+<li>Запуск .pyx файлов с любой точкой входа</li>
+<li>Поддержка аннотаций кода </li>
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:heading --></p>
+<h2>Отзывы</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:jetpack/slideshow {"ids":[472,382,387,386,385,384,383],"sizeSlug":"large"} --></p>
+<div class="wp-block-jetpack-slideshow aligncenter" data-effect="slide">
+<div class="wp-block-jetpack-slideshow_container swiper-container">
+<ul class="wp-block-jetpack-slideshow_swiper-wrapper swiper-wrapper">
+<li class="wp-block-jetpack-slideshow_slide swiper-slide">
+<figure><img alt="" class="wp-block-jetpack-slideshow_image wp-image-472" data-id="472" src="https://alexveden.com/wp-content/uploads/2022/09/upwork-profile.png"/></figure>
+</li>
+<li class="wp-block-jetpack-slideshow_slide swiper-slide">
+<figure><img alt="" class="wp-block-jetpack-slideshow_image wp-image-382" data-id="382" src="https://alexveden.com/wp-content/uploads/2022/09/tmqr.png"/></figure>
+</li>
+<li class="wp-block-jetpack-slideshow_slide swiper-slide">
+<figure><img alt="" class="wp-block-jetpack-slideshow_image wp-image-387" data-id="387" src="https://alexveden.com/wp-content/uploads/2022/09/data-science-sports.png"/></figure>
+</li>
+<li class="wp-block-jetpack-slideshow_slide swiper-slide">
+<figure><img alt="" class="wp-block-jetpack-slideshow_image wp-image-386" data-id="386" src="https://alexveden.com/wp-content/uploads/2022/09/betfair-sports-betting.png"/></figure>
+</li>
+<li class="wp-block-jetpack-slideshow_slide swiper-slide">
+<figure><img alt="" class="wp-block-jetpack-slideshow_image wp-image-385" data-id="385" src="https://alexveden.com/wp-content/uploads/2022/09/trading-algo.png"/></figure>
+</li>
+<li class="wp-block-jetpack-slideshow_slide swiper-slide">
+<figure><img alt="" class="wp-block-jetpack-slideshow_image wp-image-384" data-id="384" src="https://alexveden.com/wp-content/uploads/2022/09/fundamental-screener.png"/></figure>
+</li>
+<li class="wp-block-jetpack-slideshow_slide swiper-slide">
+<figure><img alt="" class="wp-block-jetpack-slideshow_image wp-image-383" data-id="383" src="https://alexveden.com/wp-content/uploads/2022/09/machine-learning.png"/></figure>
+</li>
+</ul>
+<p><a class="wp-block-jetpack-slideshow_button-prev swiper-button-prev swiper-button-white" role="button"></a><a class="wp-block-jetpack-slideshow_button-next swiper-button-next swiper-button-white" role="button"></a><a aria-label="Pause Slideshow" class="wp-block-jetpack-slideshow_button-pause" role="button"></a>
+<div class="wp-block-jetpack-slideshow_pagination swiper-pagination swiper-pagination-white"></div>
+</div>
+</div>
+<p><!-- /wp:jetpack/slideshow --></p>

@@ -9,12 +9,12 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
+url:              'https://alexveden.github.io'
 baseurl:          ''
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
-remote_theme: sighingnow/jekyll-gitbook
+# remote_theme: sighingnow/jekyll-gitbook
 
 toc:
   enabled: true
@@ -52,19 +52,19 @@ exclude:
   - tmux_run.sh
 
 collections:
-  pages:
+  collection_about:
     position: 1
-    title: My fancy pages
+    title: About me
     output: true
-    permalink: /:collection/:path/
-  collection_book_c:
-    position: 2
-    title: My book 1
-    output: true
-    permalink: /modern-c-book/:path/
+    permalink: /about/:path/
+  # collection_book_c:
+  #   position: 2
+  #   title: My book 1
+  #   output: true
+  #   permalink: /modern-c-book/:path/
   posts:
     position: 3
-    title: Recent posts
+    # title: Recent posts
     output: true
 
 
