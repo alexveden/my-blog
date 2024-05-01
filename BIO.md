@@ -1,0 +1,3 @@
+Alex Veden is an expert in algorithmic trading with hands-on experience in quantitative research and infrastructure development. Since 2004, he has been developing trading strategies, backtesters, and order management systems for algorithmic trading firms. He has deep knowledge of systematic trading in stocks, futures, options.
+
+Alex is a professional Python developer and data scientist. His main superpower is versatile experience, which allows him to build a whole trading operations pipeline from idea to order execution. Alex is focused on building scalable trading and research solutions for running multi-strategy hedge fund operations on markets around the world.
